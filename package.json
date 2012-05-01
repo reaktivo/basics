@@ -1,0 +1,34 @@
+{
+  "author": "Marcel Miranda <m@reaktivo.com> (http://reaktivo.com)",
+  "name": "basics",
+  "description": "Basics are nice Express defaults",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {
+    "express": "~2.5.8",
+    "express-resource": "0.2.4",
+    "jade": "~0.22.1",
+    "coffee-script": "~1.3.1",
+    "handler": "~0.1.2",
+    "request": "~2.9.153",
+    "connect-assets": "~2.1.9",
+    "mongoose": "~2.5.13",
+    "devcon": "*",
+    "stylus": "0.24.0",
+    "async": "~0.1.18",
+    "templates": "~0.1.5",
+    "underscore": "~1.3.3"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "pretest": "cake build",
+    "prepublish": "cake build",
+    "test": "mocha --compilers coffee:coffee-script --reporter spec --no-colors"
+  }
+}
