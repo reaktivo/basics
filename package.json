@@ -2,7 +2,7 @@
   "author": "Marcel Miranda <m@reaktivo.com> (http://reaktivo.com)",
   "name": "basics",
   "description": "Basics are nice Express defaults",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "repository": {
     "url": ""
   },
